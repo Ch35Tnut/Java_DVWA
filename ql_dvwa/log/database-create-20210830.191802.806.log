@@ -1,0 +1,73 @@
+[2021-08-30 19:18:02] This is codeql database create ql_dvwa --language=java
+[2021-08-30 19:18:02] Log file was started late.
+[2021-08-30 19:18:02] [PROGRESS] database create> Initializing database at /Users/sunzhiwen01/Desktop/Code/Java/DVWA/ql_dvwa.
+[2021-08-30 19:18:02] Running plumbing command: codeql database init --language=java --source-root=/Users/sunzhiwen01/Desktop/Code/Java/DVWA --allow-missing-source-root=false --allow-already-existing -- /Users/sunzhiwen01/Desktop/Code/Java/DVWA/ql_dvwa
+[2021-08-30 19:18:02] [PROGRESS] database init> Resolving extractor java.
+[2021-08-30 19:18:02] Calling plumbing command: codeql resolve languages --format=json
+[2021-08-30 19:18:03] [DETAILS] resolve languages> Scanning for codeql-extractor.yml from /Users/sunzhiwen01/bin/codeql/.codeqlmanifest.json
+[2021-08-30 19:18:03] [DETAILS] resolve languages> Parsing /Users/sunzhiwen01/bin/codeql/go/codeql-extractor.yml.
+[2021-08-30 19:18:03] [DETAILS] resolve languages> Parsing /Users/sunzhiwen01/bin/codeql/python/codeql-extractor.yml.
+[2021-08-30 19:18:03] [DETAILS] resolve languages> Parsing /Users/sunzhiwen01/bin/codeql/java/codeql-extractor.yml.
+[2021-08-30 19:18:03] [DETAILS] resolve languages> Parsing /Users/sunzhiwen01/bin/codeql/html/codeql-extractor.yml.
+[2021-08-30 19:18:03] [DETAILS] resolve languages> Parsing /Users/sunzhiwen01/bin/codeql/xml/codeql-extractor.yml.
+[2021-08-30 19:18:03] [DETAILS] resolve languages> Parsing /Users/sunzhiwen01/bin/codeql/properties/codeql-extractor.yml.
+[2021-08-30 19:18:03] [DETAILS] resolve languages> Parsing /Users/sunzhiwen01/bin/codeql/cpp/codeql-extractor.yml.
+[2021-08-30 19:18:03] [DETAILS] resolve languages> Parsing /Users/sunzhiwen01/bin/codeql/csv/codeql-extractor.yml.
+[2021-08-30 19:18:03] [DETAILS] resolve languages> Parsing /Users/sunzhiwen01/bin/codeql/csharp/codeql-extractor.yml.
+[2021-08-30 19:18:03] [DETAILS] resolve languages> Parsing /Users/sunzhiwen01/bin/codeql/javascript/codeql-extractor.yml.
+[2021-08-30 19:18:03] Plumbing command codeql resolve languages completed:
+                      {
+                        "cpp" : [
+                          "/Users/sunzhiwen01/bin/codeql/cpp"
+                        ],
+                        "csharp" : [
+                          "/Users/sunzhiwen01/bin/codeql/csharp"
+                        ],
+                        "csv" : [
+                          "/Users/sunzhiwen01/bin/codeql/csv"
+                        ],
+                        "go" : [
+                          "/Users/sunzhiwen01/bin/codeql/go"
+                        ],
+                        "html" : [
+                          "/Users/sunzhiwen01/bin/codeql/html"
+                        ],
+                        "java" : [
+                          "/Users/sunzhiwen01/bin/codeql/java"
+                        ],
+                        "javascript" : [
+                          "/Users/sunzhiwen01/bin/codeql/javascript"
+                        ],
+                        "properties" : [
+                          "/Users/sunzhiwen01/bin/codeql/properties"
+                        ],
+                        "python" : [
+                          "/Users/sunzhiwen01/bin/codeql/python"
+                        ],
+                        "xml" : [
+                          "/Users/sunzhiwen01/bin/codeql/xml"
+                        ]
+                      }
+[2021-08-30 19:18:03] [DETAILS] database init> Found candidate extractor root for java: /Users/sunzhiwen01/bin/codeql/java.
+[2021-08-30 19:18:03] [PROGRESS] database init> Successfully loaded extractor Java (java) from /Users/sunzhiwen01/bin/codeql/java.
+[2021-08-30 19:18:03] [PROGRESS] database init> Created CodeQL database at /Users/sunzhiwen01/Desktop/Code/Java/DVWA/ql_dvwa.
+[2021-08-30 19:18:03] Plumbing command codeql database init completed.
+[2021-08-30 19:18:03] Using autobuild script /Users/sunzhiwen01/bin/codeql/java/tools/autobuild.sh.
+[2021-08-30 19:18:03] [DETAILS] database create> Detected autobuild command for Java: /Users/sunzhiwen01/bin/codeql/java/tools/autobuild.sh.
+[2021-08-30 19:18:03] [PROGRESS] database create> Running build command: [/Users/sunzhiwen01/bin/codeql/java/tools/autobuild.sh]
+[2021-08-30 19:18:03] Running plumbing command: codeql database trace-command --working-dir=/Users/sunzhiwen01/Desktop/Code/Java/DVWA --index-traceless-dbs --no-db-cluster -- /Users/sunzhiwen01/Desktop/Code/Java/DVWA/ql_dvwa /Users/sunzhiwen01/bin/codeql/java/tools/autobuild.sh
+[2021-08-30 19:18:03] Setting up tracing from specification at /Users/sunzhiwen01/bin/codeql/java/tools/compiler-tracing.spec.
+[2021-08-30 19:18:03] Picked up extra JVM args: '-javaagent:/Users/sunzhiwen01/bin/codeql/java/tools/codeql-java-agent.jar=ignore-project,java' '-Xbootclasspath/a:/Users/sunzhiwen01/bin/codeql/java/tools/codeql-java-agent.jar'
+[2021-08-30 19:18:03] [PROGRESS] database trace-command> Running command in /Users/sunzhiwen01/Desktop/Code/Java/DVWA: [/Users/sunzhiwen01/bin/codeql/java/tools/autobuild.sh]
+[2021-08-30 19:18:04] [build-stderr] ERROR: Could not detect a suitable build command for the source checkout.
+[2021-08-30 19:18:04] [ERROR] Spawned process exited abnormally (code 1; tried to run: [/Users/sunzhiwen01/bin/codeql/tools/osx64/preload_tracer, /Users/sunzhiwen01/bin/codeql/java/tools/autobuild.sh])
+[2021-08-30 19:18:04] Exception caught at top level: Exit status 1 from command: [/Users/sunzhiwen01/bin/codeql/java/tools/autobuild.sh]
+                      com.semmle.cli2.database.DatabaseProcessCommandCommon.executeSubcommand(DatabaseProcessCommandCommon.java:176)
+                      com.semmle.cli2.database.TraceCommandCommand.executeSubcommand(TraceCommandCommand.java:100)
+                      com.semmle.cli2.picocli.PlumbingRunner.run(PlumbingRunner.java:110)
+                      com.semmle.cli2.picocli.SubcommandCommon.runPlumbingInProcess(SubcommandCommon.java:160)
+                      com.semmle.cli2.database.CreateCommand.executeSubcommand(CreateCommand.java:143)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:456)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:205)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:214)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:98)

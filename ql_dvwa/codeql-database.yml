@@ -1,0 +1,28 @@
+---
+sourceLocationPrefix: "/Users/sunzhiwen01/Desktop/Code/Java/DVWA"
+unicodeNewlines: false
+columnKind: "utf16"
+primaryLanguage: "java"
+inProgress:
+  primaryLanguage: "java"
+  installedExtractors:
+    cpp:
+    - "file:///Users/sunzhiwen01/bin/codeql/cpp/"
+    csharp:
+    - "file:///Users/sunzhiwen01/bin/codeql/csharp/"
+    csv:
+    - "file:///Users/sunzhiwen01/bin/codeql/csv/"
+    go:
+    - "file:///Users/sunzhiwen01/bin/codeql/go/"
+    html:
+    - "file:///Users/sunzhiwen01/bin/codeql/html/"
+    java:
+    - "file:///Users/sunzhiwen01/bin/codeql/java/"
+    javascript:
+    - "file:///Users/sunzhiwen01/bin/codeql/javascript/"
+    properties:
+    - "file:///Users/sunzhiwen01/bin/codeql/properties/"
+    python:
+    - "file:///Users/sunzhiwen01/bin/codeql/python/"
+    xml:
+    - "file:///Users/sunzhiwen01/bin/codeql/xml/"
